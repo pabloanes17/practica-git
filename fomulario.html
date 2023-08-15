@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Formulario</title>
+    
+</head>
+<body>
+<!-- la etiqueta forma tiene entre otras, 2 propiedades principales.-->
+<!-- action, que es la direccion hacia donde se va dirigida la info del form-->
+<!--method, quwe es el metodo HTTP con el que se va a enviar-->
+<!-- los metodos HTTP sirven para indicar que tipo de peticion le haremos al servidor 
+      Get: le indica al servidor que solo quiere recuperar datos
+      Post: Crea un nuevo registro 
+      Put: se utiliza para editar una entidad al registro
+      Delete : borra-->
+      
+    <form>
+
+       
+        <label> Nombre</label>
+        <input type="text" id="typetext">
+
+        
+        <label> Apellido</label>
+        <input type="text" id="typetext">
+
+        
+        <label> Username</label>
+        <input type="text" id="typetext">
+
+       
+       <label for="typedate" >Fecha de nacimiento</label>
+       <input type="date" id="typedate">
+
+      
+        <label for="typenumber" >Teléfono</label>
+        <input type="number" id="typenumber">
+
+         <label for="typeEmail" >Email</label>
+         <input type="email" id="typeemail">
+
+    
+        <label for="typeEmail" >Repetir Email</label>
+        <input type="email" id="typeemail">
+
+        <label for="typepassword" >Constraseña</label>
+        <input type="password" id="typepassword">
+
+  
+        <label for="typepassword" >Repetir Constraseña</label>
+        <input type="password" id="typepassword">
+     
+
+         <label for="typefile" >Foto de perfil</label>
+         <input type="file" id="typefile">
+
+         <button type="submit" title="Registrar">Registrar
+
+
+
+
+    </form>
+</body>
+</html>
